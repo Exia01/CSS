@@ -1,0 +1,166 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    /* outline: 2px dashed black; */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    width: 1000px;
+    height: auto;
+    background-color: rgb(6, 33, 53);
+    padding: 15px;
+}
+
+.header {
+    padding: 15px;
+}
+
+.header h1 {
+    font-weight: normal;
+    display: inline-block;
+    margin-right: 200px;
+}
+
+span {
+    color: rgb(26, 147, 225);
+}
+
+.nav_bar {
+    display: inline-block;
+    width: 500px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main_content {
+    background-color: white;
+    width: 970px;
+    padding: 15px;
+}
+
+.main_img {
+    width: 970px;
+    margin-bottom: 15px;
+}
+
+.blue_boxes {
+    width: 300px;
+    background-color: rgb(21, 103, 168);
+    padding: 5px;
+    display: inline-block;
+}
+
+#projects {
+    margin: 0px 15px;
+}
+
+.blue_boxes img{
+    width: 50px;
+}
+
+.blue_boxes h2 {
+    font-weight: normal;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.blue_boxes p {
+    padding: 10px;
+    font-size: 12px;
+}
+
+img.button {
+    width: 150px;
+    margin: 5px 0px 10px 10px;
+}
+
+.middle_content {
+    height: 80px;
+}
+
+.middle_content h2 {
+    color: black;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#test {
+    margin-left: 345px;
+}
+
+#building {
+    width: 310px;
+    display: inline-block;
+}
+
+.clear_box {
+    width: 300px;
+    display: inline-block;
+}
+
+.clear_box p {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#mid_box {
+    margin: 0px 15px;
+}
+
+h3 {
+    color: #6c96b4;
+    margin-top: 20px;
+}
+
+.bubble {
+    background-color: #daedff;
+    width: 300px;
+    height: 110px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.bubble p {
+    font-size: 16px;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.little_triangle {
+    height: 20px;
+    width: 20px;
+    transform: rotate(45deg);
+    position: relative;
+    top: -30px;
+    left: -80px;
+    background-color: #daedff;
+}
+
+.footer {
+    background-color: #daedff;
+    height: 80px;
+    border-top: 2px solid rgb(6, 33, 53);
+}
+
+.footer ul {
+    margin-top: 20px;
+}
+
+.footer li {
+    color: black;
+}
+
+#footer {
+    width: 400px;
+}
