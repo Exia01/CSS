@@ -1,0 +1,22 @@
+/* Practicing targetting Elements */
+
+p{
+    font-size: 12px;
+    color: red;
+
+}
+
+a{
+    text-decoration: underline;
+    color: lightgreen
+}
+span{
+    text-transform: uppercase;
+}
+h1{
+    font-size: 32px;
+}
+div{
+    width: 100%;
+    background-color: lightgrey
+}
