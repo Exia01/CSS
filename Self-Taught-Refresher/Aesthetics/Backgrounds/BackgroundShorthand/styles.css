@@ -1,0 +1,29 @@
+body{
+    background-color: lightgreen;
+}
+#main-content{
+    background-color: antiquewhite;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    padding: 2%
+}
+#main-content div{
+    background-color: grey;
+    margin:  0 0 2px 0;
+}
+
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/background */
+.static-width{
+    width: 300px;
+    height: 300px;
+    background:url(https://caniuse.com/img/browserstack.svg) no-repeat center;
+    background-size: 75%;
+
+    /* It is recommended to put the background-color: after so it wont override the info
+    same for the size of the background
+    */
+/* We can also get granular by putting in pixels */
+}
+

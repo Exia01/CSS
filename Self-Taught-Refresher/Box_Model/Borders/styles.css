@@ -1,0 +1,33 @@
+body {
+    margin: 0 auto;
+    background-color: lightslategrey;
+}
+
+#main-content {
+    text-align: center;
+    background-color: rgb(157, 210, 243);
+    width: 900px ;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+/* https://www.w3resource.com/html/HTML-block-level-and-inline-elements.php */
+/* 
+There are several styles for borders:
+Dashed
+Dotted
+Double
+Groove
+Insert
+Outset
+Ridge
+Solid
+ */
+.box {
+    padding: 30px;
+    margin: 10px auto;
+    border: 5px solid grey;
+    width: 50%;
+
+}

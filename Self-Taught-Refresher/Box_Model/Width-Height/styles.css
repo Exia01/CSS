@@ -1,0 +1,30 @@
+body{
+    background-color: lightgreen;
+}
+#main-content{
+    background-color: antiquewhite;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    padding: 2%
+}
+#main-content div{
+    background-color: grey;
+    margin:  0 0 2px 0;
+}
+
+.static-width{
+    width: 300px;
+    height: 100px;
+}
+
+.percentage-width{
+   /*  this is reflecting the width of the main content div -70% */
+    width: 70%;
+    height: 50px;
+}
+
+.inline-block{
+    width: 40%;
+    display: inline-block;
+}
