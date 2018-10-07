@@ -1,0 +1,20 @@
+#main-content{
+    color: red;
+}
+
+/* These is targeting the descendants, we're two classes down all the way to p */
+#main-content #sub-content p{
+    color: yellowgreen;
+}
+
+p{
+    color: purple !important;
+}
+h1, a{
+    color: green;
+}
+
+/* This is targetting the all the direct children of this p tag from this class */
+#center-content > p{
+    color: coral;
+}

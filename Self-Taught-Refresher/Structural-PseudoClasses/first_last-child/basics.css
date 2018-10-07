@@ -1,0 +1,24 @@
+/* We specify that it will be a pseudo class by putting in the colon
+selector:keyword{declaration} */
+
+/* this is targetting the p tag being the first-child */
+article p:first-child{
+    font-weight: bold;
+
+}
+/* this is targetting the p tag being the last-child */
+article p:last-child{
+    background-color: lightcoral
+}
+
+/* we also have the first of type 
+this grabs the first p within the article
+*/
+article p:first-of-type{
+    font-weight: bold;
+
+}
+/* this is targetting the p tag being the last-child */
+article p:last-of-type{
+    background-color: lightcoral
+}

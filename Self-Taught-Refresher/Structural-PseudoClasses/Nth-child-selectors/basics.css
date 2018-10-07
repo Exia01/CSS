@@ -1,0 +1,14 @@
+/* This can be tricky because we have to guess the right number */
+/* article:nth-child(2), article:nth-child(6){
+    background: grey;
+} */
+
+/* #container > article:nth-of-type(odd){
+    background: grey;
+} */
+
+/* we start with n being zero */
+#container > article:nth-of-type(2n+1){
+    background: grey;
+}
+

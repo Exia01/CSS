@@ -1,0 +1,16 @@
+/* We specify that it will be a pseudo class by putting in the colon
+selector:keyword{declaration} */
+
+#main-content:hover{
+    background-color: lightgray;
+}
+a:hover{
+    color: red
+
+}
+a:active{
+    color: orange;
+}
+a:visited{
+    color: saddlebrown;
+}

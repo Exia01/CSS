@@ -1,0 +1,21 @@
+There are explicit and implicit targeting.
+
+There are points raking in which css proceeds to target:
+
+ID --> 100pts
+
+Class --> 10pts
+
+Element --> 1pt
+
+- Whichever selector has the most points wins.
+- If two elements are identical, the bottom-most wins.
+    - this is is because of the "Cascade"
+
+- Important 
+    - Nothing else can override it.
+        - ***CAUTION*** when using this.
+        - Makes it more difficult to troubleshoot.
+
+
+

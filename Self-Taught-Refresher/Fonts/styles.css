@@ -1,0 +1,12 @@
+/* Universal Selector
+These elements are not inheriting this.
+The universal selector targets it directly
+*/
+* {
+    background-color: lightcyan;
+}
+
+/* This will target the article with the specific class of "featured-content" */
+article.featured-content {
+    background-color: lightgreen
+}

@@ -1,0 +1,6 @@
+/* All articles is the parent, then get the descendant and target the adjacent one */
+
+#all-articles h2 + p{
+    color: green
+
+}

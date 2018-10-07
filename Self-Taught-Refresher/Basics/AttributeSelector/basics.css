@@ -1,0 +1,42 @@
+
+
+/* This is any tag that has a class associated with it
+
+meaning if an element has a class or id then target it
+
+*/
+
+span[class]{
+    color: purple
+}
+span[class]{
+    color: rgb(0, 186, 74)
+}
+
+div[id]{
+    background-color: lightgray
+}
+
+
+a[title]{
+    color: red;
+}
+
+/* We can target it as such */
+a[title="first"]{
+    color: green;
+}
+
+/* we can even implement pattern matching */
+span[class ~= "deck"]{
+color: purple;
+}
+
+/* grab all the a links that have an href attribute that ends in pdf */
+a[href$="pdf"]{
+    color: pink;
+}
+/* grab all the links that have an href attribute that begins with http */
+a[href^="Http"]{
+    color: red;
+}
