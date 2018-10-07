@@ -1,0 +1,30 @@
+/*
+Absolute vs Relative
+
+Absolute:
+    -pixels(p)
+
+Relative: --> great for responsive
+    -Em's (em)
+    -Percentage(%) 
+*/
+
+/* pixels do not change those are set */
+h2 {
+    font-size: 50px;
+}
+
+article{
+    font-size: 16px;
+}
+
+/* Here we take the inherited font size(16px) and times that by 4em which is 64px */
+article h1{
+    font-size: 4em;
+}
+
+/*  same is for % :
+here we take the 16 pixels inherited but then we are overriding by 50% which outputs 8px; */
+article p{
+    font-size: 50%;
+}

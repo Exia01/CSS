@@ -1,0 +1,7 @@
+/* We want to create a font family stack */
+article, h1{
+    font-family: Cambria, Cochin, Georgia, calibry, 'Times New Roman', serif;
+}
+p{
+    text-transform: capitalize;
+}

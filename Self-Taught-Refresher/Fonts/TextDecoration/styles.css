@@ -1,0 +1,29 @@
+/* We want to create a font family stack */
+article, h1{
+    font-family: Cambria, Cochin, Georgia, calibry, 'Times New Roman', serif;
+}
+
+/* You can only have one decoration */
+a{
+    text-decoration: none;
+    color: crimson;
+    font-size: 20px;
+}
+a:hover{
+    color: magenta;
+    text-decoration: line-through;
+    font-size: 23px;
+}
+
+/* there is two types of color properties */
+
+/* text/foreground
+text background */
+
+li{
+    color: chocolate;
+}
+h3{
+    background-color: orange;
+/* Background is the same thing, you can pass a picture as well */
+}

@@ -1,0 +1,15 @@
+/* Line spacing is also referred as tracking */
+*{
+    margin: 0 auto;
+    width: 900px;
+}
+#container { 
+    font-family: Cambria, Cochin, Georgia, calibry, 'Times New Roman', serif;
+}
+
+/* take the p tag and multiply it by 2em which a 28px; height*/
+p{
+    font-size: 14px;
+    line-height: 2em;
+    margin-bottom: 32px;
+}

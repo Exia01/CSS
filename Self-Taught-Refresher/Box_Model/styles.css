@@ -1,0 +1,23 @@
+body{
+    background-color: lightslategrey
+}
+#main-content{
+    background-color: rgb(157, 210, 243);
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px;
+}
+.box{
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+    border: 2px solid grey;
+    width: 200px;
+    /* 
+    The width is equaling to:
+    200 of the border + 30x4 of margin and padding + 1 solid right + 1 left
+    200 + 30 + 30 + 30 + 30 + 1 + 1 
+    */
+
+}
