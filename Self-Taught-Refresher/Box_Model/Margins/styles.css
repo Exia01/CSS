@@ -7,7 +7,7 @@ body {
 #main-content {
     text-align: center;
     background-color: rgb(157, 210, 243);
-    width: 900px ;
+    width: 900px;
     margin: 0 auto;
     height: 100%;
 }
@@ -24,6 +24,10 @@ if there is a larger one --> it will override
     margin: 30px 25%;
     border: 2px solid grey;
     width: 50%;
+    box-shadow: 2px 2px 4px 2px lightyellow;
+    -webkit-box-shadow: -1px 11px 17px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 11px 17px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 11px 17px -4px rgba(0, 0, 0, 0.75);
     /* 
     padding: 30px;
     padding: 30px;

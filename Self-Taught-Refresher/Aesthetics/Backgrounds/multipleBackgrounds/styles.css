@@ -1,0 +1,12 @@
+#banner {
+    background-color: cadetblue;
+    width: 100%;
+    height: 300px;
+    /* image order matters:
+        the one that comes first will be at the top of the stack, the second one will be under
+    */
+    background-image: url(https://media1.tenor.com/images/5c8f50d19a126f0420da1a23b0678a35/tenor.gif), url(https://66.media.tumblr.com/8bee6672d10d0f35d0bda79f1c1c66be/tumblr_ojt5sxLYaE1u88m81o1_400.gif);
+    background-repeat: no-repeat;
+    background-position: left, right;
+    background-size: auto;
+}
