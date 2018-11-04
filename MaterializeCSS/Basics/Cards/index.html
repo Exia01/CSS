@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <title>Learning Materialize</title>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Cards</h2>
+            <div class="row">
+                <!-- col small screens 12 columns and large screens 16 columns  -->
+                <div class="col s12 l6">
+                    <!-- This div creates a cards -->
+                    <div class="card">
+                        <!-- This is where we can place images -->
+                        <div class="card-image">
+                            <img src="img/curry.jpg" alt="">
+                            <!-- anchor tag that has a floating button -->
+                            <a href="" class="halfway-fab btn-floating pink pulse">
+                                <!-- icon with a class of favorite -->
+                                <i class="material-icons">favorite</i>
+                            </a>
+                        </div>
+                        <!-- embedded within the card -->
+                        <div class="card-content">
+                            <!-- The card title emphasizes the text -->
+                            <span class="card-title">Mango & Chickpea Curry</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci
+                                varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        </div>
+                        <!-- Imbedded within the card but in its own -->
+                        <div class="card-action">
+                            <!-- Card actions alreade separates it -->
+                            <a href="">More details</a>
+                            <a href="">View Ingredients</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/pasta.jpg" alt="">
+                            <a href="" class="halfway-fab btn-floating pink pulse">
+                                <i class="material-icons">favorite</i>
+                            </a>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Rainbow Pasta Salad</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci
+                                varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="">More details</a>
+                            <a href="">View Ingredients</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+        </script>
+        <script>
+            /* When document is finish loading, grab sidenav */
+            $(document).ready(function () {
+                $('.sidenav').sidenav();
+                /* sidenav is a materialize action */
+            });
+        </script>
+    </body>
+
+
+
+</html>
