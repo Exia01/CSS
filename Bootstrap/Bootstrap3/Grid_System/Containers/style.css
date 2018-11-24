@@ -1,0 +1,23 @@
+.main-section {
+    background-color: lightgreen;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.row .content{
+    background-color: lightgrey;
+}
+.row .sidebar{
+    background-color: lightseagreen;
+}
+
+.thumb {
+    padding: 20px;
+    background-color: lightskyblue;
+    margin-top: 20px;
+}
+.thumb2 {
+    padding: 20px;
+    background-color: plum;
+    margin-top: 20px;
+}
