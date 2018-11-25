@@ -1,0 +1,16 @@
+.row div {
+    padding: 20px 10px;
+    border: 1px solid;
+}
+
+.first {
+    background: lightblue
+}
+
+.second {
+    background: lightgreen
+}
+
+.third {
+    background: lightgoldenrodyellow;
+}
