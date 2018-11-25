@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <style></style>
+    <title>Hello, world!</title>
+  </head>
+
+  <body>
+    <!-- jumbotron == banner -->
+    <!--
+      no container extends it all the way and jumbotron-fluid eliminates the rounded borders
+    -->
+    <div
+      class="jumbotron jumbotron-fluid bg-success text-white text-center"
+      style="background: #aaa"
+    >
+      <!-- wrap the text inside the container within the jumbotron -->
+      <div class="container">
+        <!-- display-1 class an extra size -->
+        <h1 class="display-1">Welcome to the Dojo</h1>
+        <!-- lead makes the paragraph stand out -->
+        <p class="lead">A guiding light for the less enlightened...</p>
+      </div>
+    </div>
+
+    <div class="container text-muted">
+      <!-- Cards start here -->
+      <div class="row">
+        <!-- 4 elements medium takes 6 columns, large takes 3 columns -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img
+              src="./img/node.png"
+              alt="Node.js"
+              class="card-img-top img-fluid"
+            />
+            <div class="card-body">
+              <!-- card-block gives it extra padding around the card itself -->
+              <h3 class="card-title">Node.js Training</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Tenetur saepe tempore magnam repellat molestiae quam officiis
+                consequatur ex incidunt, at atque sit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img
+              src="./img/react.png"
+              alt="Node.js"
+              class="card-img-top img-fluid"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Node.js Training</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Tenetur saepe tempore magnam repellat molestiae quam officiis
+                consequatur ex incidunt, at atque sit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img
+              src="./img/webpack.png"
+              alt="Node.js"
+              class="card-img-top img-fluid"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Node.js Training</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Tenetur saepe tempore magnam repellat molestiae quam officiis
+                consequatur ex incidunt, at atque sit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img
+              src="./img/mongo.png"
+              alt="Node.js"
+              class="card-img-top img-fluid"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Node.js Training</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Tenetur saepe tempore magnam repellat molestiae quam officiis
+                consequatur ex incidunt, at atque sit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- padding is adding by the word p and direction. this case y axis -->
+      <h2 class="display-4 text-center py-5 my-4">Meet the Speakers</h2>
+
+      <!-- tells bootstrap this is a nav with centralized content -->
+      <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+        <!-- flex-column displays it in a columns when small -->
+        <!--
+          flex-md-row tells it to switch when hitting medium and upscreens
+        -->
+        <!-- nav-link gives it an appropriate style for a nav -->
+        <a href="#ninja" class="nav-link active" data-toggle="tab">Net Ninja</a>
+        <!-- the data-toggle tab enables the content -->
+        <a href="#wizard" class="nav-link" data-toggle="tab">Mangoes</a>
+        <a href="#captain" class="nav-link" data-toggle="tab">Angular Avenger</a>
+        <a href="#neutral" class="nav-link" data-toggle="tab">Net Neutral</a>
+      </nav>
+
+      <!-- connects with the nav bar with padding 5 in y axis -->
+      <div class="tab-content py-5">
+        <!-- unless it is active the the tab will not show -->
+        <div class="tab-pane active" id="ninja">
+          <!-- the id links with the href on the nav bar along with toggle -->
+          <h3>The Net Ninja</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit non
+            voluptate magnam porro sunt asperiores tempora ratione quibusdam
+            amet! Eos dicta blanditiis facere magnam eaque sed repellat
+            quibusdam cupiditate excepturi?
+          </p>
+        </div>
+        <div class="tab-pane" id="wizard">
+          <!-- the id links with the href on the nav bar along with toggle -->
+          <h3>Mangoes</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit non
+            voluptate magnam porro sunt asperiores tempora ratione quibusdam
+            amet! Eos dicta blanditiis facere magnam eaque sed repellat
+            quibusdam cupiditate excepturi?
+          </p>
+        </div>
+        <div class="tab-pane" id="captain">
+          <!-- the id links with the href on the nav bar along with toggle -->
+          <h3>Angular Avenger</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit non
+            voluptate magnam porro sunt asperiores tempora ratione quibusdam
+            amet! Eos dicta blanditiis facere magnam eaque sed repellat
+            quibusdam cupiditate excepturi?
+          </p>
+        </div>
+        <div class="tab-pane" id="neutral">
+          <!-- the id links with the href on the nav bar along with toggle -->
+          <h3>Net Neutral</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit non
+            voluptate magnam porro sunt asperiores tempora ratione quibusdam
+            amet! Eos dicta blanditiis facere magnam eaque sed repellat
+            quibusdam cupiditate excepturi?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
